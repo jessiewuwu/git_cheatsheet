@@ -6,8 +6,8 @@ step three:
 git reset
 	to go back to last commit but your current changes are still here, just not staged
 
-git reset --soft HEAD^1
-	to go back to last commit, the changes will be unstaged. for example, the two files you changed are there, it's like you never did `git add`. 
+git reset --soft <commit>
+	to go back to that specific commit, the changes will be unstaged. all the changes will be there  for example, the two files you changed are there, it's like you never did `git add`. 
 
 git reset --hard HEAD^1
 	to go back to last commit, throw away everything (you have no new changes to stage)
